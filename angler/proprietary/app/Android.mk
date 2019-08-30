@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),angler)
+ifeq ($(TARGET_DEVICE),angler_4core)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := HwSarControlService
